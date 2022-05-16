@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5349" started-at="2022-05-13T14:35:29 IST" finished-at="2022-05-13T14:35:34 IST">
+  <suite name="Default suite" duration-ms="4353" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5349" started-at="2022-05-13T14:35:29 IST" finished-at="2022-05-13T14:35:34 IST">
-      <class name="org.testing.TestScripts.TC1_PostRequest">
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:org.testing.TestScripts.TC1_PostRequest@26a7b76d]" name="testcase1" duration-ms="5318" started-at="2022-05-13T14:35:29 IST" finished-at="2022-05-13T14:35:34 IST">
+    <test name="Default test" duration-ms="4353" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
+      <class name="org.testing.TestScripts.TC7_GetEmployeeRequest">
+        <test-method status="PASS" signature="testcase7()[pri:0, instance:org.testing.TestScripts.TC7_GetEmployeeRequest@26a7b76d]" name="testcase7" duration-ms="4313" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-      </class> <!-- org.testing.TestScripts.TC1_PostRequest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testcase7 -->
+      </class> <!-- org.testing.TestScripts.TC7_GetEmployeeRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

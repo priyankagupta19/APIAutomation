@@ -42,6 +42,19 @@ public class HTTPMethods {
 		
 		return res;
 	}
+	
+	public Response getRequest1(String uriKey)
+	{
+		
+		Response res=
+		given()
+		.contentType(ContentType.JSON)
+		.when()
+		.get(pr.getProperty(uriKey));
+		
+		
+		return res;
+	}
 
 	public Response getAllRequest(String uriKey)
 	{
