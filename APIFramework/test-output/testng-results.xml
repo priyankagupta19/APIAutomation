@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4353" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
+  <suite name="Default suite" duration-ms="1724" started-at="2022-05-16T15:34:41 IST" finished-at="2022-05-16T15:34:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4353" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
-      <class name="org.testing.TestScripts.TC7_GetEmployeeRequest">
-        <test-method status="PASS" signature="testcase7()[pri:0, instance:org.testing.TestScripts.TC7_GetEmployeeRequest@26a7b76d]" name="testcase7" duration-ms="4313" started-at="2022-05-14T14:16:50 IST" finished-at="2022-05-14T14:16:54 IST">
+    <test name="Default test" duration-ms="1724" started-at="2022-05-16T15:34:41 IST" finished-at="2022-05-16T15:34:43 IST">
+      <class name="org.testing.TestScripts.TC8_GetAllEmployeeRequest">
+        <test-method status="PASS" signature="testcase8()[pri:0, instance:org.testing.TestScripts.TC8_GetAllEmployeeRequest@26a7b76d]" name="testcase8" duration-ms="1692" started-at="2022-05-16T15:34:42 IST" finished-at="2022-05-16T15:34:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase7 -->
-      </class> <!-- org.testing.TestScripts.TC7_GetEmployeeRequest -->
+        </test-method> <!-- testcase8 -->
+      </class> <!-- org.testing.TestScripts.TC8_GetAllEmployeeRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
