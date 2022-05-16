@@ -25,10 +25,10 @@ public class TC1_PostRequest
 		Random ran=new Random(); //Random class to generate randon number
 		Integer idvalue=ran.nextInt();
 		jsonBody=VariableReplacement.replaceValue(jsonBody, "id", idvalue.toString());
-		System.out.println("Please enter first name");
-		Scanner s=new Scanner(System.in);
-		String firstname=s.next();
-		jsonBody=VariableReplacement.replaceValue(jsonBody, "firstname", firstname);
+		// System.out.println("Please enter first name");
+		// Scanner s=new Scanner(System.in);
+		// String firstname=s.next();
+		// jsonBody=VariableReplacement.replaceValue(jsonBody, "firstname", firstname);
 		
 		HTTPMethods http=new HTTPMethods(pr);
 		Response response=http.PostRequest(jsonBody,"QA_URI");
